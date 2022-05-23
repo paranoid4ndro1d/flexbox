@@ -1,0 +1,45 @@
+/* A partir daqui celular ou maior */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    height: 100vh;
+    display: flex;
+  
+    /* Alinha verticalmente ao centro */
+    /* align-items: center; */
+  
+    /* Alinha verticalmente ao topo */
+    /* align-items: flex-start; */
+  
+    /* Alinha verticalmente ao rodapé */
+    /* align-items: flex-end; */
+  
+    /* Alinha verticalmente na base da linha */
+    /* align-items: baseline; */
+    /* Estica os itens para preencher o container  */
+    /* align-items: stretch; */
+
+    /* Alinha horizontalmente ao inicio (esquerda) */
+ /* justify-content: flex-start; 
+
+ /* Alinha horizontalmente ao final (direita) */
+ justify-content: flex-end;
+
+ 
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    /* display: inline; */
+    /* display: block; */
+  }
+  .azul {
+    background-color: blue;
+    height: 500px;
+  }
